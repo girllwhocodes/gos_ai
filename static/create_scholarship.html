@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Create new internship</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Josefin+Sans:wght@100&family=Kaushan+Script&family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/create_scholarship.css">
+</head>
+
+<body>
+    <h1>Upload Your Image</h1>
+    <form id="create_scholarship">
+        <script src="js/createScholarship.js"></script>
+        <div>
+            <label for="scholarship-name">Internship Name:</label>
+            <br>
+            <textarea id="scholarship-name" name="scholarshipName" rows="1" cols="40"></textarea>
+        </div>
+        <div>
+            <label for="scholarship-description">Internship Description:</label>
+            <br>
+            <textarea id="scholarship-description" name="scholarshipDescription" rows="4" cols="40"></textarea>
+        </div>
+        <div>
+            <label for="image">Select Image:</label>
+            <input type="file" id="image" name="picture_file" accept="image/*">
+        </div>
+        <div>
+            <input type="submit" value="Create">
+        </div>
+    </form>
+</body>
+
+</html>

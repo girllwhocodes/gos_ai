@@ -1,0 +1,385 @@
+body {
+	font-family: 'Advent Pro', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+}
+.containers{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.header{
+	height: 306px;
+	/*background-image: url(../img/prof/backprof.png);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.header_inner{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid white;
+	align-items: center;
+}
+
+.logo{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 46px;
+	color: #FFFFFF;
+}
+.nav_link{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	margin-left: 50px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.intro_inner{
+	position: relative;
+	top: -150px;
+	display: flex;
+	justify-content: space-between;
+}
+.li-link-part{
+	width: 30%;
+}
+.ii-data-part{
+	padding-top: 150px;
+	width: 65%;
+}
+.ii-about-owner{
+	width: 390px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+	padding: 25px;
+	text-align: center;
+}
+.li-links-owner{
+	padding: 25px 0;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+}
+.links-for-tabs{
+	width: 100%;
+	padding: 15px 25px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 29px;
+
+	color: #464646;
+}
+.color{
+	background: linear-gradient(180deg, #FFDD65 0%, #FFD465 100%);
+	box-shadow: 0px 0px 15px rgba(255, 202, 0, 0.1);
+	color: white;
+}
+.links-for-tabs:hover{
+	background: linear-gradient(180deg, #FFDD65 0%, #FFD465 100%);
+	box-shadow: 0px 0px 15px rgba(255, 202, 0, 0.1);
+	color: white;
+}
+
+
+.name_user{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: #363636;
+}
+.title{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 56px;
+	line-height: 78px;
+	/* identical to box height */
+
+
+	color: #4B4B4B;
+}
+table{
+	width: 100%;
+}
+
+.td{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 29px;
+	border-bottom: 1px solid black;
+	color: #4B4B4B;
+	height: 50px;
+}
+.tt td{
+	height: 35px;
+	font-weight: 600;
+	font-size: 18px;
+
+}
+.red{
+	color: #FF135A;
+}
+.green{
+	color: #13FFAA;
+	font-weight: 600;
+}
+.r{
+	width: 25%;
+}
+.t{
+	width: 35%;
+}
+.y{
+	width: 20%;
+}
+.u{
+	width: 20%;
+}
+.enable{
+	display: none;
+}
+.show{
+	display: block;
+}
+.my_balance{
+	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: bold;
+	width: 100%;
+	margin: 0 auto;
+}
+.my_balance span.fir{
+	font-weight: 400;
+}
+
+.kza{
+	text-align: left;
+}
+.forma{
+	display: none;
+	width: 60%;
+	padding: 15px;
+}
+.show_add{
+	display: block;
+}
+.forma p input{
+	width: 100%;
+	padding: 5px 15px;
+	border-radius: 10px;
+	border: none;
+}
+.forma p button{
+	width: 100%;
+	padding: 5px 15px;
+	border-radius: 10px;
+	border: none;
+}
+.btns{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.btn{
+	width: 100%;
+	color: white;
+	border-radius: 15px;
+}
+
+.output input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.output input{
+	width: 100%;
+	padding: 5px 15px;
+	border-radius: 10px;
+	border: none;
+}
+.output  button{
+	width: 100%;
+	padding: 5px 15px;
+	border-radius: 10px;
+	border: none;
+}
+.dis{
+	display: none;
+}
+.input div{
+	font-size: 14px;
+	color: black;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.not_shows{
+	display: none;
+}
+
+@media all and (max-width: 1024px){
+	.containers{
+		width: 100%;
+		max-width: 90%;
+		margin: 0 auto;
+	}
+	.title{
+		font-size: 46px;
+	}
+	.td{
+		font-size: 14px;
+	}
+	.ii-data-part{
+		margin-left: 15px;
+	}
+}
+
+@media all and (max-width: 768px){
+	.intro_inner{
+		display: block;
+	}
+	.ii-about-owner{
+		width: 100%;
+	}
+	.ii-data-part{
+		width: 100%;
+	}
+	.not_shows{
+		display: block;
+		text-align: left;
+	}
+	.li-links-owner{
+		display: none;
+	}
+	.ii-data-part{
+		padding-top: 0;
+	}
+	.showtab{
+		display: block;
+	}
+	.nshowtab{
+		display: none;
+	}
+}
+@media all and (max-width: 425px){
+	.header_inner{
+		display: block;
+	}
+	.nav a {
+		font-size: 12px;
+		margin-left: 15px;
+	}
+	.logo{
+		text-align: center;
+	}
+	.show{
+		width: 100%;
+		max-width: 90%;
+	}
+}
+@media all and (max-width: 320px){
+	.nav a {
+		font-size: 10px;
+		margin-left: 10px;
+	}
+	.title{
+		font-size: 30px;
+	}
+}
+.footer {
+	background: linear-gradient(180deg, #323232 0%, #2C2C2C 100%);
+	height: auto;
+}
+
+.footer-inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.fi-part-one {
+	width: 50%;
+}
+
+.fi-part-two {
+	width: 50%;
+}
+
+.fi-title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 78px;
+	color: #FFFFFF;
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+.fi-subtitle {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	padding-bottom: 25px;
+	color: #FFFFFF;
+}
+
+.nav-fi {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	align-items: center;
+	color: #FFFFFF;
+	margin-right: 25px;
+}
+
+.nav-fi:hover {
+	color: #FFB800;
+}
+
+.fi-part-two {
+	margin-top: 22%;
+	text-align: center;
+}
+
+.fi-avtors {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	color: #FFFFFF;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+.ctn {
+	align-items: center;
+}
+
+@media all and (max-width: 425px) {
+	.footer-inner {
+		display: block;
+		text-align: center;
+	}
+
+	.fi-part-one, .fi-part-two {
+		width: 100%;
+	}
+}

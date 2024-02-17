@@ -1,0 +1,11 @@
+include:
+  - project: 'spda-project/devops'
+    ref: main
+    file:
+      - '/shared-ci/templates/.docker-build.yml'
+      - '/shared-ci/templates/.k8s-deploy.yml'
+
+
+variables:
+  DOCKER_IMAGE_NAME: spda_frontend
+  K8S_DEPLOYMENT_NAME: frontend

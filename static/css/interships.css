@@ -1,0 +1,400 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+    color: #000
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h5 {
+    font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+}
+
+.title {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.title__main {
+    font-size: 50px;
+
+}
+
+.title__text {
+    font-size: 25px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+.title__text1 {
+    font-size: 17px;
+}
+
+.title__main1 {
+    font-size: 40px;
+}
+
+.yellow {
+    color: Black;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+}
+
+.desc-left,
+.desc-right {
+    width: 950px;
+    margin-left: 100px;
+}
+
+/* Первый экран */
+
+.header {
+    background-color: #E5F2E8;
+    color: #010101;
+    padding-top: 58px;
+    padding-bottom: 105px;
+}
+
+.menu {
+    margin-top: 8px;
+}
+
+.menu__item {
+    margin: 0 100px;
+}
+
+.menu__item a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.offer {
+    margin-top: 117px;
+}
+
+.offer__title {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.offer__intro {
+    font-size: 30px;
+    line-height: 1.3em;
+}
+
+.offer__intro a {
+    color: #000;
+}
+
+.offer__intro1 {
+    font-size: 40px;
+    line-height: 1.9em;
+}
+
+.offer__text {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #555555;
+    width: 400px;
+}
+
+.cards {
+    background-color: white;
+    padding: 48px 0 48px 0;
+    margin: 80px 0 0 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 208px [3];
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center;
+    grid-gap: 130px;
+}
+
+.card {
+    background-color: white;
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.thumbnail {
+    height: 100px;
+    display: -ms-grid;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F6F2;
+    border-radius: 4px 4px 0 0;
+}
+
+.card-text {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.card-buttons {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50px 50px 1fr;
+    grid-template-columns: 120px 1fr;
+    padding: 15px;
+}
+
+.card-button-1 {
+    display: -ms-grid;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 15px;
+    height: 35px;
+    color: black;
+    background-color: white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 0.5;
+}
+
+#dark-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Adjust the alpha value for the darkness */
+    z-index: 1000;
+}
+
+#myForm {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    top: 25%;
+    left: 25%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 1001;
+
+}
+
+.card-button-2 {
+    display: -ms-grid;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 15px;
+    height: 35px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0 5px 5px 0;
+    opacity: 0.5;
+}
+
+.card-bottom-text {
+    text-align: right;
+    margin: 0;
+    padding-top: 5px;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+.hover-effect {
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.hover-effect:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.icons__item {
+    margin-right: 30px;
+}
+
+.icons__item a {
+    color: #000;
+    font-size: 42px;
+    transition: all 0.3s ease;
+}
+
+.icons__item a:hover {
+    text-decoration: none;
+    color: #ff4800;
+}
+
+.ipad {
+    display: ;
+    margin: 90px auto 0;
+}
+
+/* Второй экран */
+.features {
+    background-image: white;
+}
+
+.feature {
+    margin-bottom: 65px;
+}
+
+.feature__icon {
+    font-size: 50px;
+    margin-right: 37px;
+    color: #000
+}
+
+.feature__text {
+    color: black;
+}
+
+/* Третий экран */
+
+.touch {
+    background: #C1D8B9;
+    color: black;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__input {
+    background: #DEDBD6;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 5px;
+    width: 580px;
+    padding: 14px 0;
+    margin-right: 21px;
+    border: 0;
+    padding-left: 23px;
+    outline: none;
+}
+
+.form__btn {
+    font-family: 'PT Sans', sans-serif;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 2px;
+    width: 150px;
+    border: 0;
+    padding: 14px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Футер */
+
+.footer {
+    background: #C1D8B9;
+    padding: 50px 0 94px;
+}
+
+.credits {
+    color: black;
+    font-size: 16px;
+    width: 184px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Медиа-запросы */
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .offer {
+        text-align: center;
+    }
+
+    .offer__text {
+        margin: 20px auto;
+        width: auto;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+
+    .icons__item:nth-child(3) {
+        margin-right: 0;
+    }
+
+    .form__input {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .form__btn {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .title__text {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ipad {
+        width: 100%;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu__item {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
